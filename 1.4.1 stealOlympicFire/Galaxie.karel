@@ -1,0 +1,25 @@
+void stealOlympicFire()
+{
+    moveForward();
+    turnLeft();
+    repeat(6) {
+        treppenSprung();
+    }  
+    turnRight();
+    pickBeeper();
+    moveForward();
+    turnRight();
+    repeat(6) {
+        moveForward(); 
+    }
+    turnLeft();
+    moveForward();
+    
+} 
+
+void treppenSprung() {
+    moveForward();
+    turnRight();
+    moveForward();
+    turnLeft();
+}
